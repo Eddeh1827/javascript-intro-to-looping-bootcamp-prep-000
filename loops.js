@@ -1,4 +1,4 @@
-var forLoop = for (let i = 0;i < 25;i++) {
+var forLoop = function for (let i = 0;i < 25;i++) {
   if (i <= 1) {
     return "I am " + i + " strange loop";
   }
